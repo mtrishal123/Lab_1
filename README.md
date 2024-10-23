@@ -51,7 +51,7 @@ pip install numpy torch
 How to Run
 
 1. Clone the repository:
-git clone https://github.com/your-repo/binary-classification-nn
+(https://github.com/mtrishal123/Lab_1.git)
 cd binary-classification-nn
 
 2. Prepare the dataset. Either generate random samples or place your images in the appropriate directories.
