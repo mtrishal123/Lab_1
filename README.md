@@ -52,7 +52,7 @@ How to Run
 
 1. Clone the repository:
 (https://github.com/mtrishal123/Lab_1.git)
-cd binary-classification-nn
+cd Lab_1
 
 2. Prepare the dataset. Either generate random samples or place your images in the appropriate directories.
 
