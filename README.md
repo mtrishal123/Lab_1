@@ -62,3 +62,18 @@ python main.py
 Configuration
 Learning Rate: Set in trainer.py, default is 0.01.
 Epochs: Modify the epochs parameter in main.py to control the number of iterations (default is 3000).
+
+## Lab-2
+# Adjustments in Binary Classification Neural Network
+
+In Lab-2, the following modifications were made to enhance the model's training:
+
+Changes Made
+
+Learning Rate Adjustment: The learning rate was modified to 0.005 to improve the training stability and control the loss fluctuation.
+Early Stopping: The training process now includes early stopping, terminating at epoch 1830 to avoid overfitting and reduce unnecessary computation time.
+Test Accuracy: With these changes, the model achieved a test accuracy of 83.5%.
+Example Output for Lab-2
+Epoch [1800/3000], Loss: 0.2972, Val Loss: 0.3004 ...
+
+After implementing early stopping, the training halted at epoch 1830 with a test accuracy of 83.5%.
