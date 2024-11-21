@@ -77,3 +77,28 @@ Example Output for Lab-2
 Epoch [1800/3000], Loss: 0.2972, Val Loss: 0.3004 ...
 
 After implementing early stopping, the training halted at epoch 1830 with a test accuracy of 83.5%.
+
+## Key Updates in Lab 3
+### Dataset Improvements
+1. Introduced slight random noise to input features to improve robustness.
+2. Ensured proper normalization using StandardScaler.
+
+### Model Architecture
+The neural network architecture is designed as follows:
+
+1. Input Layer: 10 neurons
+2. Hidden Layers:
+    1. Layer 1: 16 neurons, ReLU activation
+    2. Layer 2: 16 neurons, ReLU activation
+    3. Layer 3: 8 neurons, ReLU activation
+3. Output Layer: 1 neuron, Sigmoid activation (for binary classification)
+4. Regularization: Dropout layers were added to prevent overfitting.
+### Hyperparameter Tuning
+1. Learning Rate: Tuned dynamically using a scheduler with initial learning_rate=0.005, decaying by a factor of gamma=0.8 every step_size=200 epochs.
+2. Batch Size: Set to 32 for balanced optimization.
+3. Optimization Algorithm: Switched to Adam optimizer for faster convergence.
+### Training Enhancements
+1. Early stopping was initially used but later removed to allow complete utilization of 1000 epochs.
+2. Regular monitoring of validation loss ensured no overfitting.
+3. Final configuration achieved convergence at 1000 epochs.
+
