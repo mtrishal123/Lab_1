@@ -103,6 +103,6 @@ The neural network architecture is designed as follows:
 3. Final configuration achieved convergence at 1000 epochs.
 
 ### Results
-Training Epochs: 1000
-Final Test Accuracy: 94.67%
-Output for Lab 3 is lab_3_output.png
+ 1. Training Epochs: 1000
+ 2. Final Test Accuracy: 94.67%
+ 3. Output for Lab 3 is lab_3_output.png
