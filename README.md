@@ -102,3 +102,7 @@ The neural network architecture is designed as follows:
 2. Regular monitoring of validation loss ensured no overfitting.
 3. Final configuration achieved convergence at 1000 epochs.
 
+### Results
+Training Epochs: 1000
+Final Test Accuracy: 94.67%
+Output for Lab 3 is lab_3_output.png
